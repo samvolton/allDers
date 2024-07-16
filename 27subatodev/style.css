@@ -1,0 +1,39 @@
+.my-header {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+#my-email,
+#my-password,
+#my-enter,
+#my-sign-up {
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    flex-grow: 1;
+    border-top: 1px solid black;
+    margin: 0 10px; /* Adjust spacing between lines */
+}
+
+#veya {
+    font-size: 40px; /* Your font size */
+}

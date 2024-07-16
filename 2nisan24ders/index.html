@@ -1,0 +1,61 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Variable</title>
+    <script src="/script.js" type="module"></script>
+</head>
+<body>
+    <h1>Welcome To the 31Pros</h1>
+    <div id="output"></div>
+    <div id="output1"> </div>
+    <script type="module">
+        import { c } from './script.js'; // Import the exported variable c
+        document.getElementById('output').textContent = c; 
+        import{ z } from './script.js';
+        document.getElementById('output1').textContent = z;
+
+        
+
+</script>
+
+    <h2>Guess the number game to win a free Nude!</h2>
+    <label for = "userGuess">Enter your guess: </label>
+    <input type="number" id="userGuess">
+    <button id="checkGuess">Check The Guess</button>
+
+    <script>
+
+            const randomNumber = Math.floor(Math.random() * 100 ) + 1;
+            const checkGuessBtn = document.GetElementById('checkGuess');
+            const userGuessInput = document.GetElementById('userGuess');
+
+            checkGuessBtn.addEventListener('click', () => {
+                    const userGuess = parseInt(userGuessInput.value);
+
+                    if(isNaN(userGuess) || userGuess < 1 ||userGuess > 100);
+                    {
+                        alert('Please enter a number between 1 and 100');
+                        return;
+                    }
+
+                    if(userGuess === randomNumber){
+                        alert("Congrats the number is correct ${randomNumber}! Here is your free nude!");
+                        return;
+                    } else {
+                        alert("Sorry, the correct number is: $(randomNumber). Try Again");
+                   return; }
+
+
+
+
+            });
+    </script>
+ 
+
+ 
+ 
+</body>
+</html>

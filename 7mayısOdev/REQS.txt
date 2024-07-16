@@ -1,0 +1,3 @@
+Üye ekleme
+Üye listeleme
+Üye güncelleme ve silme işlemlerinin yerlerini göstermeniz yeterlidir.

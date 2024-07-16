@@ -1,0 +1,23 @@
+#h1_h1{
+    color:Red;
+    font-size: 31px;
+}
+
+li{
+    color: red;
+    font-size:21px;
+}
+
+li + li {
+    margin-top:20px;
+}
+
+.myDiv{
+    color:red;
+    font-size: 50px;
+}
+
+#asshole li {
+    color: purple;
+    font-size:60px;
+}
